@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace LibraryApp.Controllers
 {
+    /// <summary>
+    /// Controller to accept book related requests.
+    /// </summary>
     public class BookController : Controller
     {
         private readonly LibraryContext _db;
