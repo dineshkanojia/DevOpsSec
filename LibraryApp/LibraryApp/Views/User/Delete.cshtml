@@ -1,0 +1,83 @@
+﻿@model Library.Common.LoginUser
+
+<form method="post" asp-action="DeletePost">
+    <input hidden asp-for="UserId" />
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-black-50 pl-3"> Delete User</h2>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Username"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="Password"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="Password"></label>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Username" class="form-control" disabled/>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Password" class="form-control" disabled/>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Password" class="form-control" disabled/>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Firstname"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="Lastname"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="Mobile"></label>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Firstname" class="form-control" disabled />
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Lastname" class="form-control"  disabled/>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Mobile" class="form-control"  disabled/>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="EmaiId"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="Address"></label>
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="EmaiId" class="form-control" disabled/>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="Address" class="form-control" disabled/>
+
+                    </div>
+                    <div class="col-4">
+                        <input type="submit" class="btn btn-danger" value="Delete" /> <a asp-action="Index" class="btn btn-success">Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

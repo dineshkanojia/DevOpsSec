@@ -1,0 +1,62 @@
+﻿@model Library.Common.Login
+@{
+    ViewData["Title"] = "Index";
+}
+
+@{
+    Layout = "";
+}
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LibraryApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <link href="~/css/Login.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $('#btnLogin').click(function () {
+                if ($('#Username').val() == "") {
+                    $('#spUsername').text("Username is required.");
+                    return false;
+                }
+                else if ($('#Password').val() == "") {
+                    $('#spPassword').text("Password is required.");
+                    return false;
+                }
+                return true;
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="~/img/user.png" style="min-height:40%;width:30%" id="icon" alt="User Icon" />
+            </div>
+            <form method="post" asp-action="Login">
+                <input asp-for="Username" id="Username" class="fadeIn second" placeholder="Username" />
+                <span class="text-danger" id="spUsername"></span>
+                <input asp-for="Password" id="Password" class="fadeIn second" placeholder="Password"/>
+                <span class="text-danger" id="spPassword"></span>
+                <br />
+                <input type="submit" id="btnLogin" class="fadeIn fourth" value="Log In">
+                <div class="text-danger">
+                    @TempData["LoginMessage"]
+                </div>
+            </form>
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

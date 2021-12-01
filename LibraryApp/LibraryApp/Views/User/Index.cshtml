@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Library.Common.LoginUser>
+<div class="container">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary"> Users List</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-controller="User" asp-action="Create" class="btn btn-primary">Create New User</a>
+        </div>
+    </div>
+    <br />
+
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        Username
+                    </th>
+                    <th>
+                        Firstname
+                    </th>
+                    <th>
+                        Lastname
+                    </th>
+                    <th>
+                        Mobile
+                    </th>
+                    <th>
+                        EmaiId
+                    </th>
+                    <th>
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td> @item.Username   </td>
+                        <td> @item.Firstname   </td>
+                        <td> @item.Lastname  </td>
+                        <td> @item.Mobile   </td>
+                        <td> @item.EmaiId   </td>
+                        <td>
+                            <div class="w-100 btn-group" role="group">
+                                <a asp-controller="User" asp-action="Update" asp-route-UserId="@item.UserId" class="btn btn-primary m-1">Update</a>
+                                <a asp-controller="User" asp-action="Delete" asp-route-UserId="@item.UserId" class="btn btn-danger m-1">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</div>
