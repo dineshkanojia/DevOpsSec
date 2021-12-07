@@ -1,5 +1,6 @@
 ﻿using Library.Common;
 using Library.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,8 @@ namespace LibraryApp.Controllers
     /// <summary>
     /// Controller to accept book related requests.
     /// </summary>
+    
+    [Authorize]
     public class BookController : Controller
     {
         private readonly LibraryContext _db;

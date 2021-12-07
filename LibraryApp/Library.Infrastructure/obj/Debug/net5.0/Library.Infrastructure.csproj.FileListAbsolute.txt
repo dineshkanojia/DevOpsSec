@@ -12,4 +12,3 @@ E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrast
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.dll
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\ref\Library.Infrastructure.dll
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.pdb
-E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.csproj.CopyComplete

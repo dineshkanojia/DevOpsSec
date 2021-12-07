@@ -30,6 +30,7 @@ namespace LibraryApp
             string strConnectionString = Configuration.GetConnectionString("ConnectionString");
             services.AddControllersWithViews();
             services.AddDbContext<LibraryContext>(option => option.UseSqlServer(strConnectionString));
+            services.AddRazorPages();
            // services.AddMvc().AddJsonOptions(o => { o.JsonSerializerOptions.PropertyNamingPolicy = null; o.JsonSerializerOptions.DictionaryKeyPolicy = null; }); 
         }
 
@@ -51,17 +52,20 @@ namespace LibraryApp
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Login}/{action=Index}/{id?}");
+                //endpoints.MapControllerRoute(
+                //    name: "default",
+                //    pattern: "{controller=Login}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Book}/{action=Index}/{id?}");
+
+                endpoints.MapRazorPages();
             });
         }
     }

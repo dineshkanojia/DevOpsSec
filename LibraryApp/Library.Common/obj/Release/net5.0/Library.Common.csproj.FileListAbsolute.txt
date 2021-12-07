@@ -1,0 +1,12 @@
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\bin\Release\net5.0\Library.Common.deps.json
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\bin\Release\net5.0\Library.Common.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\bin\Release\net5.0\ref\Library.Common.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\bin\Release\net5.0\Library.Common.pdb
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\Library.Common.csproj.AssemblyReference.cache
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\Library.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\Library.Common.AssemblyInfoInputs.cache
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\Library.Common.AssemblyInfo.cs
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\Library.Common.csproj.CoreCompileInputs.cache
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\Library.Common.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\ref\Library.Common.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Common\obj\Release\net5.0\Library.Common.pdb

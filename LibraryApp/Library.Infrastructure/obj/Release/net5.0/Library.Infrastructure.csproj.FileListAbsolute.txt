@@ -1,0 +1,15 @@
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Release\net5.0\Library.Infrastructure.deps.json
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Release\net5.0\Library.Infrastructure.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Release\net5.0\ref\Library.Infrastructure.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Release\net5.0\Library.Infrastructure.pdb
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Release\net5.0\Library.Common.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Release\net5.0\Library.Common.pdb
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.csproj.AssemblyReference.cache
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.AssemblyInfoInputs.cache
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.AssemblyInfo.cs
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.csproj.CopyComplete
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\ref\Library.Infrastructure.dll
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Release\net5.0\Library.Infrastructure.pdb
