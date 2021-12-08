@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace LibraryApp.Controllers
 {
+    /// <summary>
+    /// Login Controller added to serve login users.
+    /// </summary>
     public class LoginController : Controller
     {
         private readonly LibraryContext _db;
