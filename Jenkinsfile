@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                dotnet sonarscanner end /d:sonar.login=admin /d:sonar.password=nitin
+                sh '{dotnet sonarscanner} /d:sonar.login=admin /d:sonar.password=nitin'
             }
         }
 
@@ -28,7 +28,7 @@ pipeline {
 
         stage('Deploy and run.') {
             steps {
-                sh 'echo $jumphost; ssh jumpHost "/usr/bin/aws s3 cp s3://donet-build/project.tar . && tar -xvf project.tar && ls -l && pwd && cd LibraryApp/LibraryApp && dotnet run --urls http://0.0.0.0:5000 && dotnet sonarscanner end /d:sonar.login=admin /d:sonar.password=nitin"'
+                sh 'echo $jumphost; ssh jumpHost "/usr/bin/aws s3 cp s3://donet-build/project.tar . && tar -xvf project.tar && ls -l && pwd && cd LibraryApp/LibraryApp && dotnet run --urls http://0.0.0.0:5000 && {dotnet sonarscanner} /d:sonar.login=admin /d:sonar.password=nitin"'
             }
         }
     }
