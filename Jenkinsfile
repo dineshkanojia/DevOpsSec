@@ -14,7 +14,7 @@ pipeline {
             
             steps {
                 dir(path: './LibraryApp/LibraryApp'){
-                    sh 'dotnet build LibraryApp.csproj' --configuration Release
+                    sh 'dotnet build LibraryApp.csproj'
                 }
             }
         }
