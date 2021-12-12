@@ -18,7 +18,12 @@ pipeline {
                 }
             }
         }
-
+		
+		stage('Test') {
+            steps {
+                echo 'Stage 003'
+            }
+        }
         stage('Send to S3') {
             steps {
                 sh 'pwd;ls -l;/usr/bin/aws s3 ls s3://donet-build;'
