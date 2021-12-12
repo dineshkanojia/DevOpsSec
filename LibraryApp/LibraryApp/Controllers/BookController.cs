@@ -128,7 +128,7 @@ namespace LibraryApp.Controllers
                     getbook.BookName = book.BookName;
                     getbook.BookPrice = book.BookPrice;
                     getbook.FileExtention = book.FileExtention;
-                    getbook.FileName = book.FileName;
+                    //getbook.FileName = book.FileName;
                     getbook.PublishedDate = book.PublishedDate;
                     getbook.PublisherName = book.PublisherName;
                     getbook.Quantity = book.Quantity;
