@@ -49,6 +49,13 @@
             </div>
         </div>
     </div>
+    
+        <div class="form-group">
+            Admin
+            @Html.RadioButtonFor(model => model.Input.UserRole, "Admin")
+            Customer
+            @Html.RadioButtonFor(model => model.Input.UserRole, "Customer")
+        </div>
     <button type="submit" class="btn btn-primary">Register</button>
 </form>
 

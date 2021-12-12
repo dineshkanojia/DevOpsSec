@@ -12,6 +12,8 @@ namespace Library.Infrastructure
         }
         public DbSet<LoginUser> LoginUser { get; set; }
         public DbSet<Book> Book { get; set; }
+
+        public DbSet<UserRole> UserRole { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

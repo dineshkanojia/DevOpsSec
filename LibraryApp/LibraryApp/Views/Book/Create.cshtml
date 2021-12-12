@@ -1,6 +1,6 @@
 ﻿@model Library.Common.Book
 
-<form method="post" asp-action="Create">
+<form method="post" asp-action="Create"  enctype="multipart/form-data">
     <div class="border p-3">
         <div class="form-group row">
             <h2 class="text-black-50 pl-3"> Add Book</h2>
@@ -53,32 +53,46 @@
                         <input asp-for="BookPrice" class="form-control" />
                         <span asp-validation-for="BookPrice" class="text-danger"></span>
                     </div>
-
                 </div>
+
                 <div class="form-group row">
                     <div class="col-4">
+                        <label asp-for="FileName"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="FileContents"></label>
+                    </div>
+                    <div class="col-4">
+                        <label asp-for="FileExtention"></label>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="FileName" class="form-control" />
+                     </div>
+                    <div class="col-4">
+                        <input asp-for="FileContents" class="form-control" name="files"  type="file"/>
+                    </div>
+                    <div class="col-4">
+                        <input asp-for="FileExtention" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-1">
                         <label asp-for="Quantity"></label>
                     </div>
-                    <div class="col-4">
-
-                    </div>
-                    <div class="col-4">
-                        
-                    </div>
-                    <div class="col-4">
+                    <div class="col-2">
                         <input asp-for="Quantity" class="form-control" />
                         <span asp-validation-for="Quantity" class="text-danger"></span>
                     </div>
                     <div class="col-4">
-                        <input type="submit" class="btn btn-info" value="Create" /> <a asp-action="Index" class="btn btn-danger">Back</a>
-                    </div>
-                    <div class="col-4">
-                       
+                        <input type="submit" class="btn btn-info" value="Create" id="Create" /> <a asp-action="Index" class="btn btn-danger">Back</a>
                     </div>
                 </div>
+
+
+
+            </div>
             </div>
         </div>
-    </div>
 </form>
 @section Scripts{
     @{

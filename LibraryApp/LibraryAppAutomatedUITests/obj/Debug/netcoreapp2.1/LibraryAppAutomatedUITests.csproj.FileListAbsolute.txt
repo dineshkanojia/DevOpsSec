@@ -1,0 +1,17 @@
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\obj\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.AssemblyInfoInputs.cache
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\obj\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.AssemblyInfo.cs
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\obj\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.csproj.CoreCompileInputs.cache
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.deps.json
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.runtimeconfig.json
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.runtimeconfig.dev.json
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\bin\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.pdb
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\obj\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\obj\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.pdb
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\obj\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.genruntimeconfig.cache
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\LibraryAppAutomatedUITests\obj\Debug\netcoreapp2.1\LibraryAppAutomatedUITests.csprojAssemblyReference.cache

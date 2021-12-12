@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Library.Infrastructure;
 
 namespace LibraryApp.Areas.Identity.Pages.Account
 {
@@ -24,17 +25,22 @@ namespace LibraryApp.Areas.Identity.Pages.Account
         private readonly UserManager<LibraryAppIdentityUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly LibraryContext _db;
 
         public RegisterModel(
             UserManager<LibraryAppIdentityUser> userManager,
             SignInManager<LibraryAppIdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            LibraryContext db
+           )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _db = db;
+          
         }
 
         [BindProperty]
@@ -72,8 +78,10 @@ namespace LibraryApp.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+            
+            public string UserRole { get; set; }
         }
-
+       
         public async Task OnGetAsync(string returnUrl = null)
         {
             if (User.Identity.IsAuthenticated)
@@ -87,11 +95,18 @@ namespace LibraryApp.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+            
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new LibraryAppIdentityUser { UserName = Input.Email, Email = Input.Email, FirstName = Input.FirstName, LastName=Input.LastName };
+                var user = new LibraryAppIdentityUser { UserName = Input.Email, Email = Input.Email, FirstName = Input.FirstName, LastName=Input.LastName};
+                _db.UserRole.Add(new UserRole()
+                {
+                    UserName = Input.Email,
+                    Role = Input.UserRole.ToString()
+                });
+                _db.SaveChanges();
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
@@ -117,6 +132,8 @@ namespace LibraryApp.Areas.Identity.Pages.Account
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         return LocalRedirect(returnUrl);
                     }
+          
+                   
                 }
                 foreach (var error in result.Errors)
                 {

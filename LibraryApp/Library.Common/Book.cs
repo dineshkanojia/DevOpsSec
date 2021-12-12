@@ -24,7 +24,7 @@ namespace Library.Common
         [Required(ErrorMessage = "Published Date Required")]
         [DisplayName("Published Date")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime PublishedDate { get; set; }
         
         [Required(ErrorMessage = "Version Required")]
@@ -41,8 +41,16 @@ namespace Library.Common
         [Required(ErrorMessage = "Add quantity Required")]
         [DisplayName("Quantity")]
         public int Quantity { get; set; }
-        
+
+       
+        [DisplayName("File Name")]
         public string FileName { get; set; }
+
+      
+        [DisplayName("File")]
+                public byte[] FileContents { get; set; }
+        [DisplayName("File Extension")]
         public string FileExtention { get; set; }
+        public bool? IsDelete { get; set; }
     }
 }

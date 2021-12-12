@@ -41,4 +41,12 @@ namespace Library.Common
         [Required(ErrorMessage = "Password is required.")]
         public string Password { get; set; }
     }
+
+    public class UserRole
+    {
+      
+        public string Username { get; set; }
+       
+        public string  Role {get; set; }
+    }
 }

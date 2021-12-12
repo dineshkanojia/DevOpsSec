@@ -1,3 +1,18 @@
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\Library.Infrastructure.deps.json
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\Library.Infrastructure.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\ref\Library.Infrastructure.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\Library.Infrastructure.pdb
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\Library.Common.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\Library.Common.pdb
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.AssemblyInfo.cs
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.csproj.CopyComplete
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\ref\Library.Infrastructure.dll
+C:\Users\Nandhini\source\repos\DevOpsSec_08_12_2021\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.pdb
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\Library.Infrastructure.deps.json
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\Library.Infrastructure.dll
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\bin\Debug\net5.0\ref\Library.Infrastructure.dll
@@ -9,6 +24,7 @@ E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrast
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.AssemblyInfoInputs.cache
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.AssemblyInfo.cs
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.csproj.CopyComplete
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.dll
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\ref\Library.Infrastructure.dll
 E:\Personal\NCI\Assignment\DevOpSec\LibraryManagement\LibraryApp\Library.Infrastructure\obj\Debug\net5.0\Library.Infrastructure.pdb
