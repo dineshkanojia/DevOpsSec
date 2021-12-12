@@ -122,7 +122,19 @@ namespace LibraryApp.Controllers
                 bool bookExists = _db.Book.Any(u => u.BookId == book.BookId);
                 if (bookExists)
                 {
-                    _db.Book.Update(book);
+                    var getbook = _db.Book.FirstOrDefault(u => u.BookId == book.BookId);
+
+                    getbook.AutherName = book.AutherName;
+                    getbook.BookName = book.BookName;
+                    getbook.BookPrice = book.BookPrice;
+                    getbook.FileExtention = book.FileExtention;
+                    getbook.FileName = book.FileName;
+                    getbook.PublishedDate = book.PublishedDate;
+                    getbook.PublisherName = book.PublisherName;
+                    getbook.Quantity = book.Quantity;
+                    getbook.Version = book.Version;
+
+                    _db.Book.Update(getbook);
                     _db.SaveChanges();
                     return RedirectToAction("Index");
                 }
