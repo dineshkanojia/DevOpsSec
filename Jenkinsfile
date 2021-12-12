@@ -21,7 +21,7 @@ pipeline {
 		
 		stage('Test') {
             steps {
-                dir(path: './LibraryApp/LibraryApp/LibraryAppNuniTestProject'){
+                dir(path: './LibraryApp/LibraryAppNuniTestProject'){
                     sh 'dotnet build LibraryAppNuniTestProject.csproj' 
                 }
             }
