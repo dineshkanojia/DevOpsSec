@@ -21,7 +21,9 @@ pipeline {
 		
 		stage('Test') {
             steps {
-                echo 'Stage 003'
+                dir(path: './LibraryApp/LibraryApp/LibraryAppNuniTestProject'){
+                    sh 'dotnet build LibraryAppNuniTestProject.csproj' 
+                }
             }
         }
         stage('Send to S3') {
